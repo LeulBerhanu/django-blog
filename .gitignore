@@ -1,0 +1,53 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Django specific
+*.log
+db.sqlite3
+/media/
+*.pot
+*.pyc
+/staticfiles/
+
+# Node modules
+node_modules/
+
+# Virtual environments
+venv/
+ENV/
+
+# IDE/editor configurations
+.vscode/
+.idea/
+*.swp
+
+# Migrations
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# Coverage reports
+htmlcov/
+*.cover
+*.coverage
+
+# Test outputs
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+.cache
+*.cover
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
